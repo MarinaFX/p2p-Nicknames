@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c2aae57-666a-42de-9c30-d5dc1f5dfe9c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZuiUN3QJYp947W8hDIZHwcF9VM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/p2p-Nicknames" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Application.Cliente">
+    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cliente" />
+      <module name="p2p-Nicknames" />
+      <option name="PROGRAM_PARAMETERS" value="172.17.25.209 login Shepherd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Servidor" />
+      <module name="p2p-Nicknames" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Cliente" />
+      <item itemvalue="Application.Servidor" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.Servidor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c2aae57-666a-42de-9c30-d5dc1f5dfe9c" name="Default Changelist" comment="" />
+      <created>1585695396481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585695396481</updated>
+      <workItem from="1585695402036" duration="3122000" />
+      <workItem from="1585866098356" duration="4394000" />
+      <workItem from="1586109652635" duration="9357000" />
+      <workItem from="1586122387044" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Inspections" timestamp="1586115503582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1586115503582" />
+    <state x="828" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585871041376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585871041376" />
+    <state x="676" y="230" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1586117940465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="676" y="230" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586117940465" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586117386921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586117386921" />
+    <state width="877" height="343" key="GridCell.Tab.0.bottom" timestamp="1586121449634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="877" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586121449634" />
+    <state width="877" height="343" key="GridCell.Tab.0.center" timestamp="1586121449634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="877" height="343" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586121449634" />
+    <state width="877" height="343" key="GridCell.Tab.0.left" timestamp="1586121449634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="877" height="343" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586121449634" />
+    <state width="877" height="343" key="GridCell.Tab.0.right" timestamp="1586121449634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="877" height="343" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586121449634" />
+    <state width="877" height="343" key="GridCell.Tab.1.bottom" timestamp="1586121449634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="877" height="343" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586121449634" />
+    <state width="877" height="343" key="GridCell.Tab.1.center" timestamp="1586121449634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="877" height="343" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586121449634" />
+    <state width="877" height="343" key="GridCell.Tab.1.left" timestamp="1586121449634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="877" height="343" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586121449634" />
+    <state width="877" height="343" key="GridCell.Tab.1.right" timestamp="1586121449634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="877" height="343" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586121449634" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Servidor.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
