@@ -11,6 +11,8 @@ public class Servidor {
     private static InetAddress endCliente = null;
     private static int portCliente = 0;
     private static final String FILE_NAME = "users.txt";
+    private static final int MAX_VAL = 16384;
+    private static byte[] buff = new byte[MAX_VAL];
 
     private static String leLista() {
         String resposta = "";
@@ -63,9 +65,8 @@ public class Servidor {
         }
 
         while (true) {
-            byte[] texto = new byte[256];
             //recebe o datagrama
-            DatagramPacket pacote = new DatagramPacket(texto, texto.length);
+            DatagramPacket pacote = new DatagramPacket(Servidor.buff, Servidor.buff.length);
             try {
                 System.out.println("Esperando o recebimento do cliente...");
                 socket.receive(pacote);
@@ -82,8 +83,8 @@ public class Servidor {
                 Servidor.gravaLista(nickname, pacote.getAddress());
                 Servidor.endCliente = pacote.getAddress();
                 Servidor.portCliente = pacote.getPort();
-                texto = new String("Logado").getBytes();
-                pacote = new DatagramPacket(texto, texto.length, endCliente, portCliente);
+                Servidor.buff = new String("Logado").getBytes();
+                pacote = new DatagramPacket(Servidor.buff, Servidor.buff.length, endCliente, portCliente);
                 try {
                     socket.send(pacote);
                     System.out.println("\nMensagem enviada para " + endCliente + ", porta " + portCliente);
@@ -93,8 +94,8 @@ public class Servidor {
             } else {
                 if (recebido.equals("!sair")) {
                     try {
-                        texto = new String("Servidor encerrado").getBytes();
-                        pacote = new DatagramPacket(texto, texto.length, Servidor.endCliente, Servidor.portCliente);
+                        Servidor.buff = new String("Servidor encerrado").getBytes();
+                        pacote = new DatagramPacket(Servidor.buff, Servidor.buff.length, Servidor.endCliente, Servidor.portCliente);
                         socket.send(pacote);
                         System.out.println("servidor encerrado");
                         socket.close();
@@ -106,8 +107,8 @@ public class Servidor {
                     if (recebido.equals("!lista")) {
                         try {
                             String resposta = Servidor.leLista();
-                            texto = resposta.getBytes();
-                            pacote = new DatagramPacket(texto, texto.length, Servidor.endCliente, Servidor.portCliente);
+                            Servidor.buff = resposta.getBytes();
+                            pacote = new DatagramPacket(Servidor.buff, Servidor.buff.length, Servidor.endCliente, Servidor.portCliente);
                             socket.send(pacote);
                             System.out.println("\nMensagem enviada para " + endCliente + ", porta " + portCliente);
                         } catch (IOException e) {
